@@ -1,0 +1,96 @@
+#navbarSupportedContent{
+    margin-left: 10%;
+}
+.nav-item {
+    padding: 20px;
+}
+.navbar-brand{
+    color:#fd7062;
+    font-size: 40px;
+}
+.dropdown-menu{
+    border: 0;
+    border-radius: 0;
+    border-top:2px solid #fd7062;
+    background: #ccc;
+}
+.dropdown-menu a{
+    color: #fff;
+}
+.drop-toggle{
+    display: block;
+}
+.slider{
+    background-image: url("/images/bg.jpeg");
+   
+}
+/* .slide-item{
+    background-image: url("/images/bg.jpeg");
+    width: 600px;
+    height: 700px;
+} */
+.slick-arrow{
+    background: transparent;
+    border: 0;
+}
+.slick-list{
+    height: auto !important;
+}
+.slider{
+    position: relative;
+}
+.slick-prev i{
+    position: absolute;
+    left: 1%;
+    top:35%;
+    color: tomato;
+    width: 20px;
+    z-index: 10;
+    font-size: 50px;
+}
+.slick-next i{
+    position: absolute;
+    right: 2%;
+    top:35%;
+   color: tomato;
+    width: 20px;
+    z-index: 10;
+    font-size: 50px;
+} 
+.main-desc i{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.main-head{
+    text-align: left;
+    padding-left: 10px;
+}
+.head-p{
+    font-size: 18px;
+}
+#slick-slide-control00,#slick-slide-control01,#slick-slide-control02,#slick-slide-control03{
+    display: none !important;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    margin: 0;
+}
+.slick-dots li{
+    padding-left: 16px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.content-section{
+    background-image: url("/images/av_mast.jpg");
+}
+.right-head{
+    border-bottom: 2px dotted #ccc;
+}
+.right-head h1{
+    border-bottom: 2px solid blue;
+}
